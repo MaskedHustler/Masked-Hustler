@@ -7,60 +7,63 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 40px 20px;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(145deg, #000000, #1a1a1a);
+      background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
       color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: start;
-      min-height: 100vh;
-      padding-top: 60px;
+      text-align: center;
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 30px;
       margin-bottom: 30px;
-      text-align: center;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #00f5d4;
     }
 
     .button {
-      width: 80%;
-      max-width: 400px;
-      margin: 10px 0;
-      padding: 16px 20px;
+      display: block;
+      margin: 12px auto;
+      padding: 14px 20px;
       background-color: #ffffff;
       color: #000000;
-      text-align: center;
-      text-decoration: none;
       border-radius: 50px;
-      font-size: 17px;
+      text-decoration: none;
+      width: 90%;
+      max-width: 360px;
+      font-size: 16px;
       font-weight: bold;
       transition: all 0.3s ease;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
     .button:hover {
-      transform: scale(1.05);
       background-color: #f0f0f0;
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
+
   <h1>Top AI Tools</h1>
 
-  <!-- AI for Reels/Shorts -->
-  <a href="https://www.pictory.ai/" target="_blank" class="button">Pictory - AI Video Generator</a>
-  <a href="https://www.vidyo.ai/" target="_blank" class="button">Vidyo.ai - Shorts Editing</a>
-
-  <!-- AI Image Generation -->
-  <a href="https://www.bing.com/images/create" target="_blank" class="button">Bing Image Creator (DALL·E)</a>
-  <a href="https://www.canva.com/ai-image-generator/" target="_blank" class="button">Canva AI Image Generator</a>
-
-  <!-- AI Content Writing -->
-  <a href="https://chat.openai.com/" target="_blank" class="button">ChatGPT - AI Writer</a>
-  <a href="https://writesonic.com/" target="_blank" class="button">Writesonic - Copywriting</a>
+  <div class="section">
+    <h2>AI Video Making Tools</h2>
+    <a href="https://runwayml.com/" target="_blank" class="button">Runway ML</a>
+    <a href="https://invideo.io/" target="_blank" class="button">InVideo</a>
+    <a href="https://animoto.com/" target="_blank" class="button">Animoto</a>
+    <a href="https://lumen5.com/" target="_blank" class="button">Lumen5</a>
+    <a href="https://www.kapwing.com/" target="_blank" class="button">Kapwing</a>
+    <a href="https://www.magisto.com/" target="_blank" class="button">Magisto</a>
+  </div>
 
 </body>
 </html>
