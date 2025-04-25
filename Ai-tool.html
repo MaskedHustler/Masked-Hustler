@@ -9,32 +9,33 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      height: 100vh;
       background: linear-gradient(145deg, #000000, #1a1a1a);
+      color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      color: white;
+      justify-content: start;
+      min-height: 100vh;
+      padding-top: 60px;
     }
 
     h1 {
-      margin-bottom: 40px;
       font-size: 28px;
+      margin-bottom: 30px;
       text-align: center;
     }
 
     .button {
       width: 80%;
-      max-width: 360px;
+      max-width: 400px;
       margin: 10px 0;
-      padding: 18px 20px;
+      padding: 16px 20px;
       background-color: #ffffff;
       color: #000000;
       text-align: center;
       text-decoration: none;
       border-radius: 50px;
-      font-size: 18px;
+      font-size: 17px;
       font-weight: bold;
       transition: all 0.3s ease;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -49,10 +50,17 @@
 <body>
   <h1>Top AI Tools</h1>
 
-  <a href="#" class="button">Best AI for Reels/Shorts</a>
-  <a href="#" class="button">AI Image Generators</a>
-  <a href="#" class="button">AI Content Writers</a>
+  <!-- AI for Reels/Shorts -->
+  <a href="https://www.pictory.ai/" target="_blank" class="button">Pictory - AI Video Generator</a>
+  <a href="https://www.vidyo.ai/" target="_blank" class="button">Vidyo.ai - Shorts Editing</a>
+
+  <!-- AI Image Generation -->
+  <a href="https://www.bing.com/images/create" target="_blank" class="button">Bing Image Creator (DALL·E)</a>
+  <a href="https://www.canva.com/ai-image-generator/" target="_blank" class="button">Canva AI Image Generator</a>
+
+  <!-- AI Content Writing -->
+  <a href="https://chat.openai.com/" target="_blank" class="button">ChatGPT - AI Writer</a>
+  <a href="https://writesonic.com/" target="_blank" class="button">Writesonic - Copywriting</a>
 
 </body>
 </html>
-
